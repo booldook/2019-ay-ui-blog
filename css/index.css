@@ -1,10 +1,28 @@
 /* Common */
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
+html, body {background-color: #eee; 
+	font-family: 'Open Sans', sans-serif;}
+body {padding: 1rem;}
 
 /* Header */
-
+.header {text-align: center; font-weight: normal;}
+.header > h1 {padding-top: 2rem;}
+.header > p {padding: 1rem 0;}
+.header > p > span {display: inline-block; padding: 0 0.5rem; background-color: #333; color: #f8f8f8; margin-left: 0.25rem;}
 
 /* Main */
+.main-wrap {display: flex; justify-content: space-between; align-items: flex-start; margin: 2rem 0;}
+.frame-lt {width: 65%;}
+.frame-rt {width: 33%;}
+
+/* Post */
+.post-wrap {background-color: #fff;
+	box-shadow: 0 0.5rem 0.75rem rgba(0,0,0,0.5);}
+.post-body {padding: 1rem;}
+.post-body > h3 {font-size: 1.125rem; font-weight: 300; padding: 1rem 0;}
+.post-body > h3 > span {color: #777;}
+
+/* frame-rt */
 
 
 /* Footer */
