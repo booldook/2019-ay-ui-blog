@@ -11,18 +11,19 @@ body {padding: 1rem;}
 .header > p > span {display: inline-block; padding: 0 0.5rem; background-color: #333; color: #f8f8f8; margin-left: 0.25rem;}
 
 /* Main */
-.main-wrap {display: flex; justify-content: space-between; align-items: flex-start; margin: 2rem 0;}
+.main-wrap {max-width: 980px; margin: 2rem auto; display: flex; justify-content: space-between; align-items: flex-start;}
 .frame-lt {width: 65%;}
 .frame-rt {width: 33%;}
 
 /* Post */
 .post-wrap {background-color: #fff;
-	box-shadow: 0 0.5rem 0.75rem rgba(0,0,0,0.5);}
+	box-shadow: 0 0.5rem 0.75rem rgba(0,0,0,0.5); margin-bottom: 3rem;}
 .post-body {padding: 1rem;}
 .post-body > h3 {font-size: 1.125rem; font-weight: 300; padding: 1rem 0;}
 .post-body > h3 > span {color: #777;}
 .post-body > p {color: #444; font-size: 0.875rem; line-height: 1.75; padding: 1rem 0;}
 .post-footer {display: flex; align-items: center; justify-content: space-between;}
+.post-footer > .comment > span {background-color: #333; color: #f8f8f8; padding: 0.125rem 0.5rem; margin-left: 0.5rem; font-size: 0.75rem; line-height: 1; border-radius: 50%;}
 
 /* frame-rt */
 
