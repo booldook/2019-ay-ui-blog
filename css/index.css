@@ -1,7 +1,7 @@
 /* Common */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
 html, body {background-color: #eee; 
-	font-family: 'Open Sans', sans-serif;}
+	font-family: 'Open Sans', sans-serif; color: #111;}
 body {padding: 1rem;}
 
 /* Header */
@@ -21,6 +21,8 @@ body {padding: 1rem;}
 .post-body {padding: 1rem;}
 .post-body > h3 {font-size: 1.125rem; font-weight: 300; padding: 1rem 0;}
 .post-body > h3 > span {color: #777;}
+.post-body > p {color: #444; font-size: 0.875rem; line-height: 1.75; padding: 1rem 0;}
+.post-footer {display: flex; align-items: center; justify-content: space-between;}
 
 /* frame-rt */
 
